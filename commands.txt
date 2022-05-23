@@ -1,0 +1,18 @@
+git init
+git --version
+git config user.name
+git config --global user.name
+git add . (adding to staging area)
+git reset, rm (removing from staging area)
+git checkout, restore (revert changes done in staging area)
+git commit -m "msg" (commit changes)
+git commit -m -a "msg" (commit changes without using staging area but can be done aftrer first add.)
+git reset --hard HEAD^ (revert last changes in local repos)
+git reset --hard HEAD~4 (revert last changes in local repos)
+git status (check status of staging view)
+git log (check status of local repos)
+
+git push -u origin master
+git pull origin
+git add remote origin "repositorylink"
+
